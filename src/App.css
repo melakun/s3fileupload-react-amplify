@@ -1,5 +1,5 @@
 :root {
-  --amplify-primary-color: darkslateblue;
+  --amplify-primary-color: #FF9900;
   --amplify-primary-tint: rgb(39, 39, 151); 
   --amplify-primary-shade: rgb(105, 95, 171);
 }
@@ -78,7 +78,7 @@ body {
   padding-bottom: 1px;
   margin-bottom: 0;
   color: white;
-  background-color: darkslateblue;
+  background-color: #FF9900;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -87,7 +87,7 @@ body {
   line-height: 1.1;
 }
 
-.video-uploader {
+.image-uploader {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
@@ -118,7 +118,7 @@ body {
   padding-bottom: 5px;
   margin-bottom: 1rem;
   color: white;
-  background-color: darkslateblue;
+  background-color: #FF9900;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   font-weight: bold;
@@ -129,7 +129,7 @@ body {
 
 .btn {
   text-decoration: none;
-  color: darkslateblue;
+  color: #FF9900;
   background-color: white;
   text-align: center;
   letter-spacing: 0.5px;
@@ -162,9 +162,9 @@ body {
   font-size: 2rem;
 }
 
-.video-input {
+.image-input {
   text-decoration: none;
-  color: darkslateblue;
+  color: #FF9900;
   background-color: white;
   text-align: center;
   font-size: 1.5rem;
