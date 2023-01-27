@@ -51,29 +51,29 @@ const App = () => {
   return (
     <AmplifyAuthenticator>
       <AmplifySignIn
-        headerText='AnyCompany video team, Sign-In with Your E-Mail Address'
+        headerText='AnyCompany Worksite Inspection team, Sign-In with Your E-Mail Address'
         slot='sign-in'
       />
       <AmplifySignUp
-        headerText='AnyCompany video team, Sign-In with Your E-Mail Address'
+        headerText='AnyCompany Worksite Inspection team, Sign-In with Your E-Mail Address'
         slot='sign-up'
       />
       <div className='header'>
         <h2>
-          <a href='/'>AnyCompany video admin panel</a>
+          <a href='/'>AnyCompany Image Upload Portal</a>
         </h2>
       </div>
-      <div className='video-uploader'>
+      <div className='image-uploader'>
         <form onSubmit={(e) => onSubmit(e)}>
           <p>
-            <label className='select-label'>Select video: </label>
+            <label className='select-label'>Select Image: </label>
           </p>
           <p>
             <input
-              className='video-input'
+              className='image-input'
               type='file'
               id='file-input'
-              accept='video/*'
+              accept='image/*'
               onChange={(e) => onChange(e)}
             />
           </p>
